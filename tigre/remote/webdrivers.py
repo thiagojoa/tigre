@@ -23,3 +23,8 @@ class safari(Tigre):
     def __init__(self):
         super().__init__()
         self._fixed_caps = {"browserName": "safari"}
+
+class ie(Tigre):
+    def __init__(self):
+        super().__init__()
+        self._fixed_caps = {"browserName": "internet explorer"}
